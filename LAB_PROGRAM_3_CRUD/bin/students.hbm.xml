@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="simple_lab3.students" table="students">
+<id name="s_id" type="int" column="s_id">
+</id>
+<property name="s_name" type="string" column="s_name" />
+<property name="marks" type="int" column="marks" />
+</class>
+</hibernate-mapping>
